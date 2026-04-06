@@ -10,6 +10,8 @@ AI-based **Marketing Campaign Generator** project: exploratory analysis of produ
 | `Campaign Generator Lowcode Notebook (2).ipynb` | Template / low-code variant with blanks to complete. |
 | `products.db` | SQLite database with `products` table (product_id, product_name, target_age, target_profession, product_details). |
 | `config.example.json` | Example API configuration; copy to `config.json` locally (not committed). |
+| `Campaign_Generator_Fullcode_Notebook_Complete.ipynb` | Alternate full notebook export (sanitized). |
+| `Campaign_Generator_Fullcode_Notebook_Complete.html` | HTML export of the notebook (sanitized). |
 
 ## Setup
 
@@ -23,4 +25,4 @@ Run all cells top to bottom after installing dependencies and restarting the ker
 
 ## Security
 
-Do not commit `config.json` or real API keys. The committed notebook uses a placeholder for the API key; rotate any key that was ever committed elsewhere.
+Do not commit `config.json` or real API keys. The committed notebooks and HTML use a placeholder for the API key. **Rotate any API key** that may have appeared in a file, chat, or old commit before this sanitization.
